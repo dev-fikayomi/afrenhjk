@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="stylesheet" type="text/css" href="f.css">
+</head>
+<body>
+
+	<div class="form-container">
+		<h2>Contact Us</h2>
+		<form action="process-form.php" method="POST" enctype="multipart/form-data">
+			<label for="firstname">First Name:</label>
+			<input type="text" name="firstname" required>
+
+			<label for="lastname">Last Name:</label>
+			<input type="text" name="lastname" required>
+
+			<label for="phone">Phone Number:</label>
+			<input type="tel" name="phone" required>
+
+			<label for="dob">Date of Birth:</label>
+			<input type="date" name="dob" required>
+
+			<label for="state">State of Origin:</label>
+			<input type="text" name="state" required>
+
+			<label for="education">Level of Education:</label>
+			<select name="education" required>
+				<option value="">--Please Select--</option>
+				<option value="Primary School">Primary School</option>
+				<option value="Secondary School">Secondary School</option>
+				<option value="Tertiary Institution">Tertiary Institution</option>
+			</select>
+
+			<label for="gender">Gender:</label>
+			<input type="radio" name="gender" value="Male" required> Male
+			<input type="radio" name="gender" value="Female" required> Female
+
+			<label for="marital">Marital Status:</label>
+			<input type="radio" name="marital" value="Single" required> Single
+			<input type="radio" name="marital" value="Married" required> Married
+
+			<label for="picture">Picture:</label>
+			<input type="file" name="picture" required>
+
+			<input type="submit" name="submit" value="Submit">
+		</form>
+	</div>
+
+</body>
+</html>
