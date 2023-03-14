@@ -4,7 +4,7 @@
 
   <!-- ======= Breadcrumbs ======= -->
   <section class="breadcrumbs">
-    <div class="container">
+<!--     <div class="container"> -->
 
       <ol>
         <li><a href="index.php">Home</a></li>
